@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/rounded"
+        android:ems="20"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginpws"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:hint="პაროლი"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/shesvla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="შესვლა"
+        tools:text="შესვლა" />
+
+    <TextView
+        android:id="@+id/dabruneba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="დაბრუნდით წინა გვერდზე"
+        tools:text="დაბრუნდით წინა გვერდზე" />
+
+    <Button
+        android:id="@+id/password_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="დაგავიწყდა პაროლი?" />
+
+</LinearLayout>
